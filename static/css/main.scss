@@ -1,0 +1,107 @@
+// Global Variables
+$border-white: 2px solid white;
+$border-black: 2px solid black;
+$standard-color: rgb(218, 156, 23);
+
+
+html, body {
+    margin: 0; 
+    padding: 0;
+  }
+
+
+// CSS for the navbar 
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    width: 99%;
+
+    h1 {
+        font-family: cursive;
+        width: 20%;
+        text-align: center;
+        color: black;
+    }
+
+
+
+    .hambuger_menu {
+        display: none;
+
+        input {
+            visibility: hidden;
+        }
+    }
+
+
+    .links {
+        width: 35%;
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            transition: color 0.5s ease;
+        }
+
+        a:hover {
+            color: rgb(218, 156, 23);
+        }
+
+    }
+
+
+    .icons-btn {
+        width: 20%;
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        i {
+            color: white;
+            cursor: pointer;
+        }
+
+        i:hover {
+            color: rgb(218, 156, 23);
+        }
+
+        button {
+            padding: 10px;
+            background-color: rgb(218, 156, 23);
+            width: 100%;
+            border-radius: 30px;
+            font-size: 18px;
+            font-weight: 500;
+            border: none;
+            cursor: pointer;
+            color: white;
+        }
+
+        button:hover {
+            background-color: rgb(187, 134, 20);
+        }
+    }
+}
+
+
+
+// CSS for the index page ===================================
+
+// css for the jumbotron
+.jumbotron-image {
+    width: 100%;
+    height: 700px;
+    margin: 0;
+    padding: 0;
+    background-image: url('/static/images/index_image.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
