@@ -290,34 +290,27 @@ html, body {
   background-color: rgb(224, 178, 79);
 }
 
-.we-are-company2 {
-  width: 100%;
-  margin: auto;
-  height: 700px;
+.we_are_company_info {
   background-color: #252A2D;
   display: flex;
-  align-items: center;
   justify-content: space-around;
+  height: 700px;
   display: none;
 }
-.we-are-company2 img {
-  width: 550px;
-  height: 550px;
-  margin-left: 10px;
-}
-.we-are-company2 .company-info {
-  width: 50%;
-  margin: auto;
+.we_are_company_info .company-info {
+  width: 70%;
+  position: absolute;
   text-align: center;
-  margin-right: 25px;
+  height: 40%;
+  margin-right: 30%;
 }
-.we-are-company2 .company-info p {
-  font-size: 20px;
+.we_are_company_info .company-info p {
+  width: 100%;
+  font-size: 25px;
   color: white;
-  font-family: cursive;
   font-weight: 100;
 }
-.we-are-company2 .company-info a button {
+.we_are_company_info .company-info a button {
   padding: 20px;
   background-color: rgb(218, 156, 23);
   width: 30%;
@@ -327,6 +320,49 @@ html, body {
   border: none;
   cursor: pointer;
 }
-.we-are-company2 .company-info a button:hover {
+.we_are_company_info .company-info a button:hover {
   background-color: rgb(224, 178, 79);
+}
+.we_are_company_info img {
+  width: 450px;
+  height: 450px;
+  margin-top: 30%;
+  position: absolute;
+  margin-left: 35%;
+}
+
+.book_a_table {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgba(220, 220, 220, 0.562);
+  padding: 10px;
+}
+.book_a_table h1 {
+  font-family: cursive;
+}
+.book_a_table .booked-table-form {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+}
+.book_a_table .booked-table-form input {
+  margin-bottom: 10px;
+  padding: 15px;
+}
+.book_a_table .booked-table-form a button {
+  padding: 15px;
+  background-color: rgb(218, 156, 23);
+  width: 30%;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+.book_a_table .booked-table-form a button:hover {
+  background-color: rgb(224, 178, 79);
+}
+.book_a_table .google-maps {
+  width: 48%;
 }/*# sourceMappingURL=main.css.map */

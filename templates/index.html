@@ -29,7 +29,16 @@
 
 
 <br><br><br><br>
-{% include 'index_things/weAreCompany.html' %}
+{% block company_info %}
+    {% include 'index_things/weAreCompany.html' %}
+{% endblock company_info %}
 
+
+
+<br><br><br><br>
+{% include 'index_things/book_a_table.html' %}
+
+
+<br><br><br><br>
 
 {% endblock content %}

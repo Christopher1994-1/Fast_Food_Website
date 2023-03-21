@@ -383,32 +383,25 @@ html, body {
 
 }
 
-.we-are-company2 {
-    width: 100%;
-    margin: auto;
-    height: 700px;
+// css for the ~ we are company info 2 ~
+.we_are_company_info {
     background-color: $company-color1;
     display: flex;
-    align-items: center;
     justify-content: space-around;
+    height: 700px;
     display: none;
 
-    img {
-        width: 550px;
-        height: 550px;
-        margin-left: 10px;
-    }
-
     .company-info {
-        width: 50%;
-        margin: auto;
+        width: 70%;
+        position: absolute;
         text-align: center;
-        margin-right: 25px;
+        height: 40%;
+        margin-right: 30%;
 
         p {
-            font-size: 20px;
+            width: 100%;
+            font-size: 25px;
             color: white;
-            font-family: cursive;
             font-weight: 100;
         }
 
@@ -431,4 +424,65 @@ html, body {
         }
     }
 
+
+    img {
+        width: 450px;
+        height: 450px;
+        margin-top: 30%;
+        position: absolute;
+        margin-left: 35%;
+    }
+
+}
+
+
+// css for the ~ book a table ~
+.book_a_table {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(220, 220, 220, 0.562);
+    padding: 10px;
+
+    h1 {
+        font-family: cursive;
+    }
+
+    .booked-table-form {
+        display: flex;
+        flex-direction: column;
+
+        width: 48%;
+
+        input {
+            margin-bottom: 10px;
+            padding: 15px;
+        }
+
+
+        a {
+            button {
+                padding: 15px;
+                background-color: $standard-color;
+                width: 30%;
+                border-radius: 20px;
+                font-size: 20px;
+                font-weight: 500;
+                border: none;
+                cursor: pointer;
+            }
+
+            button:hover {
+                background-color: rgb(224, 178, 79);
+
+            }
+            
+        }
+    }
+
+
+    .google-maps {
+
+        width: 48%;
+    }
 }

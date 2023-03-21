@@ -14,6 +14,90 @@
     font-size: 25px;
   }
 }
+@media (max-width: 1016px) {
+  .book_a_table {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(220, 220, 220, 0.562);
+    padding: 10px;
+  }
+  .book_a_table h1 {
+    font-family: cursive;
+  }
+  .book_a_table .booked-table-form {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+  }
+  .book_a_table .booked-table-form input {
+    margin-bottom: 10px;
+    padding: 15px;
+  }
+  .book_a_table .booked-table-form a button {
+    padding: 15px;
+    background-color: rgb(218, 156, 23);
+    width: 40%;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+  }
+  .book_a_table .booked-table-form a button:hover {
+    background-color: rgb(224, 178, 79);
+  }
+  .book_a_table .google-maps {
+    width: 48%;
+  }
+  .book_a_table .google-maps iframe {
+    height: 330px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .menu-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5em;
+  }
+  .menu-container .menu {
+    font-family: sans-serif;
+    font-size: 16px;
+  }
+  .menu-container .menu-group-heading {
+    margin: 0;
+    padding-bottom: 1em;
+    border-bottom: 2px solid #ccc;
+  }
+  .menu-container .menu-group {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .menu-container .menu-group .menu-item {
+    display: flex;
+  }
+  .menu-container .menu-group .menu-item img {
+    width: 125px;
+    height: 125px;
+    flex-shrink: 0;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin-right: 1.5em;
+  }
+  .menu-container .menu-group .menu-item-text {
+    flex-grow: 1;
+  }
+  .menu-container .menu-group .menu-item-text .menu-item-heading {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+  .menu-container .menu-group .menu-item-text .menu-item-name {
+    margin-right: 1.5em;
+  }
+  .menu-container .menu-group .menu-item-text .menu-item-description {
+    line-height: 1.6;
+  }
+}
 @media (max-width: 983px) {
   .navbar {
     display: flex;
@@ -192,12 +276,84 @@
   .we-are-company {
     display: none;
   }
-  .we-are-company2 {
+  .we_are_company_info {
     display: block;
+    display: flex;
   }
-  .we-are-company2 img {
-    width: 300px;
-    height: 300px;
+}
+@media (max-width: 816px) {
+  .we_are_company_info .company-info {
+    width: 70%;
+    position: absolute;
+    text-align: center;
+    height: 40%;
+    margin-right: 25%;
+  }
+  .we_are_company_info .company-info p {
+    width: 100%;
+    font-size: 25px;
+    color: white;
+    font-weight: 100;
+  }
+  .we_are_company_info .company-info a button {
+    padding: 20px;
+    background-color: rgb(218, 156, 23);
+    width: 40%;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+  }
+  .we_are_company_info .company-info a button:hover {
+    background-color: rgb(224, 178, 79);
+  }
+  .we_are_company_info img {
+    width: 450px;
+    height: 450px;
+    margin-top: 30%;
+    position: absolute;
+    margin-left: 35%;
+  }
+}
+@media (max-width: 776px) {
+  .book_a_table {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(220, 220, 220, 0.562);
+    padding: 10px;
+  }
+  .book_a_table h1 {
+    font-family: cursive;
+  }
+  .book_a_table .booked-table-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 80%;
+  }
+  .book_a_table .booked-table-form input {
+    margin-bottom: 10px;
+    padding: 15px;
+  }
+  .book_a_table .booked-table-form a button {
+    padding: 15px;
+    background-color: rgb(218, 156, 23);
+    width: 45%;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+  }
+  .book_a_table .booked-table-form a button:hover {
+    background-color: rgb(224, 178, 79);
+  }
+  .book_a_table .google-maps {
+    width: 78%;
+  }
+  .book_a_table .google-maps iframe {
+    height: 430px;
   }
 }
 @media (max-width: 746px) {
@@ -259,6 +415,77 @@
     background-color: rgb(187, 134, 20);
   }
 }
+@media (max-width: 726px) {
+  .we_are_company_info .company-info {
+    width: 70%;
+    position: absolute;
+    text-align: center;
+    height: 40%;
+    margin-right: 25%;
+  }
+  .we_are_company_info .company-info p {
+    width: 100%;
+    font-size: 25px;
+    color: white;
+    font-weight: 100;
+  }
+  .we_are_company_info .company-info a button {
+    padding: 20px;
+    background-color: rgb(218, 156, 23);
+    width: 40%;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+  }
+  .we_are_company_info .company-info a button:hover {
+    background-color: rgb(224, 178, 79);
+  }
+  .we_are_company_info img {
+    width: 350px;
+    height: 350px;
+    margin-top: 40%;
+    position: absolute;
+    margin-left: 35%;
+  }
+}
+@media (max-width: 626px) {
+  .we_are_company_info .company-info {
+    width: 70%;
+    position: absolute;
+    text-align: center;
+    height: 40%;
+    margin-right: 25%;
+    margin-top: 10%;
+  }
+  .we_are_company_info .company-info p {
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    font-weight: 100;
+  }
+  .we_are_company_info .company-info a button {
+    padding: 15px;
+    background-color: rgb(218, 156, 23);
+    width: 40%;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+  }
+  .we_are_company_info .company-info a button:hover {
+    background-color: rgb(224, 178, 79);
+  }
+  .we_are_company_info img {
+    width: 350px;
+    height: 350px;
+    margin-top: 50%;
+    position: absolute;
+    margin-left: 35%;
+  }
+}
 @media (max-width: 606px) {
   .jumbotron-image {
     background-position: center;
@@ -292,6 +519,42 @@
   }
   .jumbotron-image a button:hover {
     background-color: rgb(187, 134, 20);
+  }
+}
+@media (max-width: 539px) {
+  .we_are_company_info .company-info {
+    width: 70%;
+    position: absolute;
+    text-align: center;
+    height: 40%;
+    margin-right: 25%;
+    margin-top: 5%;
+  }
+  .we_are_company_info .company-info p {
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    font-weight: 100;
+  }
+  .we_are_company_info .company-info a button {
+    padding: 15px;
+    background-color: rgb(218, 156, 23);
+    width: 50%;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+  }
+  .we_are_company_info .company-info a button:hover {
+    background-color: rgb(224, 178, 79);
+  }
+  .we_are_company_info img {
+    width: 300px;
+    height: 300px;
+    margin-top: 60%;
+    position: absolute;
+    margin-left: 35%;
   }
 }
 @media (max-width: 526px) {
@@ -386,47 +649,39 @@
     background-color: rgb(187, 134, 20);
   }
 }
-@media screen and (min-width: 992px) {
-  .menu-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 1.5em;
+@media (max-width: 463px) {
+  .we_are_company_info .company-info {
+    width: 70%;
+    position: absolute;
+    text-align: center;
+    height: 40%;
+    margin-right: 25%;
+    margin-top: 5%;
   }
-  .menu-container .menu {
-    font-family: sans-serif;
-    font-size: 16px;
+  .we_are_company_info .company-info p {
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    font-weight: 100;
   }
-  .menu-container .menu-group-heading {
-    margin: 0;
-    padding-bottom: 1em;
-    border-bottom: 2px solid #ccc;
+  .we_are_company_info .company-info a button {
+    padding: 15px;
+    background-color: rgb(218, 156, 23);
+    width: 50%;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
   }
-  .menu-container .menu-group {
-    grid-template-columns: repeat(2, 1fr);
+  .we_are_company_info .company-info a button:hover {
+    background-color: rgb(224, 178, 79);
   }
-  .menu-container .menu-group .menu-item {
-    display: flex;
-  }
-  .menu-container .menu-group .menu-item img {
-    width: 125px;
-    height: 125px;
-    flex-shrink: 0;
-    -o-object-fit: cover;
-       object-fit: cover;
-    margin-right: 1.5em;
-  }
-  .menu-container .menu-group .menu-item-text {
-    flex-grow: 1;
-  }
-  .menu-container .menu-group .menu-item-text .menu-item-heading {
-    display: flex;
-    justify-content: space-between;
-    margin: 0;
-  }
-  .menu-container .menu-group .menu-item-text .menu-item-name {
-    margin-right: 1.5em;
-  }
-  .menu-container .menu-group .menu-item-text .menu-item-description {
-    line-height: 1.6;
+  .we_are_company_info img {
+    width: 300px;
+    height: 300px;
+    margin-top: 70%;
+    position: absolute;
+    margin-left: 33%;
   }
 }/*# sourceMappingURL=smaller_screens.css.map */
