@@ -632,6 +632,130 @@ $standard-color: rgb(218, 156, 23);
 
     }
 
+
+    // css for the ~ footer ~
+    .footer{
+        height: max-content;
+        margin-bottom: 0;
+
+    .three-divs-flex {
+        display: flex;
+        width: 90%;
+        margin: auto;
+        flex-direction: column;
+        padding: 10px;
+        align-items: center;
+
+        .footer1 {
+            width: 100%;
+            text-align: center;
+
+            h1 {
+                color: white;
+                font-family: cursive;
+                font-size: 27px;
+            }
+
+            .location {
+                margin-bottom: 10px;
+                color: white;
+
+                a {
+                    color: white;
+                    text-decoration: none;
+                }
+
+                a:hover {
+                    color: $standard-color;
+                }
+            }
+
+            .location:hover {
+                color: $standard-color;
+            }
+
+            .phone {
+                margin-bottom: 10px;
+                color: white;
+
+                a {
+                    color: white;
+                    text-decoration: none;
+                }
+
+                a:hover {
+                    color: $standard-color;
+                }
+            }
+
+            .phone:hover {
+                color: $standard-color;
+            }
+
+            .email {
+                color: white;
+                a {
+                    color: white;
+                    text-decoration: none;
+                }
+
+                a:hover {
+                    color: $standard-color;
+                }
+            }
+
+            .email:hover {
+                color: $standard-color;
+            }
+        }
+
+        .footer2 {
+            width: 100%;
+            text-align: center;
+
+            h1 {
+                font-family: cursive;
+                color: white;
+                font-size: 27px;
+            }
+
+            p {
+                color: white;
+                font-weight: 100;
+            }
+
+            .social-media-links {
+                font-size: 20px;
+                color: white;
+
+                i {
+                    cursor: pointer;
+                }
+
+                i:hover {
+                    color: $standard-color;
+                }
+            }
+        }
+
+        .footer3 {
+            width: 100%;
+            text-align: center;
+            color: white;
+
+            h1 {
+                font-size: 27px;
+                font-family: cursive;
+            }
+        }
+    }
+
+    .p {
+        color: white;
+        font-weight: 500;
+    }
+    }
+
 }
 
 

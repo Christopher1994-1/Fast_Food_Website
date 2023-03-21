@@ -365,4 +365,103 @@ html, body {
 }
 .book_a_table .google-maps {
   width: 48%;
+}
+
+.footer {
+  background-color: #252A2D;
+  height: 40%;
+  text-align: center;
+}
+.footer .three-divs-flex {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+  justify-content: center;
+}
+.footer .three-divs-flex .footer1 {
+  width: 30%;
+  text-align: center;
+}
+.footer .three-divs-flex .footer1 h1 {
+  color: white;
+  font-family: cursive;
+  font-size: 27px;
+}
+.footer .three-divs-flex .footer1 .location {
+  margin-bottom: 10px;
+  color: white;
+}
+.footer .three-divs-flex .footer1 .location a {
+  color: white;
+  text-decoration: none;
+}
+.footer .three-divs-flex .footer1 .location a:hover {
+  color: rgb(218, 156, 23);
+}
+.footer .three-divs-flex .footer1 .location:hover {
+  color: rgb(218, 156, 23);
+}
+.footer .three-divs-flex .footer1 .phone {
+  margin-bottom: 10px;
+  color: white;
+}
+.footer .three-divs-flex .footer1 .phone a {
+  color: white;
+  text-decoration: none;
+}
+.footer .three-divs-flex .footer1 .phone a:hover {
+  color: rgb(218, 156, 23);
+}
+.footer .three-divs-flex .footer1 .phone:hover {
+  color: rgb(218, 156, 23);
+}
+.footer .three-divs-flex .footer1 .email {
+  color: white;
+}
+.footer .three-divs-flex .footer1 .email a {
+  color: white;
+  text-decoration: none;
+}
+.footer .three-divs-flex .footer1 .email a:hover {
+  color: rgb(218, 156, 23);
+}
+.footer .three-divs-flex .footer1 .email:hover {
+  color: rgb(218, 156, 23);
+}
+.footer .three-divs-flex .footer2 {
+  width: 30%;
+  text-align: center;
+}
+.footer .three-divs-flex .footer2 h1 {
+  font-family: cursive;
+  color: white;
+  font-size: 27px;
+}
+.footer .three-divs-flex .footer2 p {
+  color: white;
+  font-weight: 100;
+}
+.footer .three-divs-flex .footer2 .social-media-links {
+  font-size: 20px;
+  color: white;
+}
+.footer .three-divs-flex .footer2 .social-media-links i {
+  cursor: pointer;
+}
+.footer .three-divs-flex .footer2 .social-media-links i:hover {
+  color: rgb(218, 156, 23);
+}
+.footer .three-divs-flex .footer3 {
+  width: 30%;
+  text-align: center;
+  color: white;
+}
+.footer .three-divs-flex .footer3 h1 {
+  font-size: 27px;
+  font-family: cursive;
+}
+.footer .p {
+  color: white;
+  font-weight: 500;
 }/*# sourceMappingURL=main.css.map */
