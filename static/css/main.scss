@@ -2,6 +2,7 @@
 $border-white: 2px solid white;
 $border-black: 2px solid black;
 $standard-color: rgb(218, 156, 23);
+$company-color1: #252A2D;
 
 
 html, body {
@@ -22,7 +23,7 @@ html, body {
         font-family: cursive;
         width: 20%;
         text-align: center;
-        color: black;
+        color: rgb(255, 255, 255);
     }
 
 
@@ -100,8 +101,334 @@ html, body {
     height: 700px;
     margin: 0;
     padding: 0;
-    background-image: url('/static/images/index_image.jpg');
+    // background-image: url('/static/images/index_image.jpg');
+    background-image: url('/static/images/test.png');
     background-size: cover;
     background-position: center;
+
+    .jumbo-div {
+        width: 50%;
+        padding: 10px;
+        position: absolute;
+        top: 28%;
+        left: 9%;
+
+
+        h1 {
+            color: white;
+            font-family: cursive;
+        }
+
+        p {
+            color: white;
+            font-size: 20px;
+            font-weight: 100;
+        }
+
+        a {
+            button {
+                padding: 10px;
+                background-color: rgb(218, 156, 23);
+                width: 30%;
+                border-radius: 30px;
+                font-size: 18px;
+                font-weight: 500;
+                border: none;
+                cursor: pointer;
+                color: white;
+            }
+    
+            button:hover {
+                background-color: rgb(187, 134, 20);
+            }
+        }
+    }
 }
 
+
+
+
+
+// css for the two options after jumbotron
+.two-options-main-container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-around;
+
+    .option {
+        background-color: #252A2D;
+        display: flex;
+        padding: 20px;
+        width: 45%;
+        border-radius: 20px;
+
+        img {
+            border-radius: 100px;
+            border: 5px solid $standard-color;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        img:hover {
+            transform: scale(1.2);
+        }
+
+        .option-des {
+            width: 70%;
+    
+            h5 {
+                color: white;
+                font-size: 30px;
+                font-family: cursive;
+                margin-top: 0;
+                margin-bottom: 0;
+                margin-left: 5px;
+            }
+    
+            p {
+                color: white;
+                font-size: 25px;
+                margin-left: 5px;
+                font-family: cursive;
+                margin-top: 5px;
+                margin-bottom: 10px;
+            }
+
+            a {
+                button {
+                    padding: 10px;
+                    background-color: rgb(218, 156, 23);
+                    width: 50%;
+                    border-radius: 30px;
+                    font-size: 18px;
+                    font-weight: 500;
+                    border: none;
+                    cursor: pointer;
+                    color: white;
+                }
+        
+                button:hover {
+                    background-color: rgb(187, 134, 20);
+                }}
+
+            
+        }
+
+    }
+}
+
+
+
+
+// css for the ~ our menu header ~
+.our-menu-header {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+
+    h1 {
+        font-family: cursive;
+    }
+}
+
+// css for the main menu
+.menu-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5em;
+    overflow: auto;
+    max-height: 500px;
+    background-color: rgba(220, 220, 220, 0.274);
+    border-radius: 20px;
+  
+      /* Scrollbar */
+    &::-webkit-scrollbar {
+        width: 6px;
+        height: 3px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 3px;
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+
+    &::-webkit-scrollbar-corner {
+        background: #f1f1f1;
+    }
+  
+
+    .menu {
+        font-family: sans-serif;
+        font-size: 14px;
+    }
+
+    .menu-group-heading {
+        margin: 0;
+        padding-bottom: 1em;
+        border-bottom: 2px solid #ccc;
+    }
+
+    .menu-group {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1.5em;
+        padding: 1.5em 0;
+
+        .menu-item {
+            display: flex;
+            border-bottom: 2px solid #ccc;
+
+            img {
+                width: 80px;
+                height: 80px;
+                flex-shrink: 0;
+                object-fit: cover;
+                margin-right: 1.5em;
+            }
+
+            a {
+                button {
+                    border: none;
+                    background-color: $standard-color;
+                    padding: 5px;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    margin-bottom: 5px;
+                }
+
+                button:hover {
+                    background-color: rgb(236, 179, 56);
+                }
+            }
+        }
+
+        .menu-item-text {
+            flex-grow: 1;
+
+            .menu-item-heading {
+                display: flex;
+                justify-content: space-between;
+                margin: 0;
+            }
+
+            .menu-item-name {
+                margin-right: 1.5em;
+            }
+
+            .menu-item-description {
+                line-height: 1.6;
+            }
+        }
+    }
+
+}
+
+
+
+// css for the ~ we are company info ~
+.we-are-company {
+    width: 100%;
+    margin: auto;
+    height: 700px;
+    background-color: $company-color1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    img {
+        width: 550px;
+        height: 550px;
+        margin-left: 10px;
+    }
+
+    .company-info {
+        width: 50%;
+        margin: auto;
+        text-align: center;
+        margin-right: 25px;
+
+        p {
+            font-size: 20px;
+            color: white;
+            font-family: cursive;
+            font-weight: 100;
+        }
+
+        a {
+            button {
+                padding: 20px;
+                background-color: $standard-color;
+                width: 30%;
+                border-radius: 20px;
+                font-size: 25px;
+                font-weight: 500;
+                border: none;
+                cursor: pointer;
+            }
+
+            button:hover {
+                background-color: rgb(224, 178, 79);
+
+            }
+        }
+    }
+
+}
+
+.we-are-company2 {
+    width: 100%;
+    margin: auto;
+    height: 700px;
+    background-color: $company-color1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    display: none;
+
+    img {
+        width: 550px;
+        height: 550px;
+        margin-left: 10px;
+    }
+
+    .company-info {
+        width: 50%;
+        margin: auto;
+        text-align: center;
+        margin-right: 25px;
+
+        p {
+            font-size: 20px;
+            color: white;
+            font-family: cursive;
+            font-weight: 100;
+        }
+
+        a {
+            button {
+                padding: 20px;
+                background-color: $standard-color;
+                width: 30%;
+                border-radius: 20px;
+                font-size: 25px;
+                font-weight: 500;
+                border: none;
+                cursor: pointer;
+            }
+
+            button:hover {
+                background-color: rgb(224, 178, 79);
+
+            }
+        }
+    }
+
+}
